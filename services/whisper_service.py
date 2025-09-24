@@ -22,7 +22,7 @@ def transcribe_file(file) -> str:
         "whisper",
         temp_path,
         "--task", "transcribe",
-        "--model", "base",
+        "--model", "tiny",
         "--verbose", "False",
         "--output_dir", OUTPUT_DIR
     ]
